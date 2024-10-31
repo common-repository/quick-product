@@ -1,0 +1,23 @@
+/**
+Quick Product Custom styles to Override woocommerce Styles wherever necessary
+*/
+.control_new_product_in_line_group {display:block;margin-top:10px;}
+.control_new_product_in_line_group * {display:inline-block;}
+.control_new_product_in_line_group input {margin-right:13px;}
+.control_new_product_in_line_group input.newproductname {width:170px;}
+.control_new_product_in_line_group input.newproductprice {width:120px;}
+i.woo-product-icon:before {
+font-family:WooCommerce!important;
+content:"\e01d";
+font-size:1.3em!important;
+display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 18px;
+vertical-align:middle;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+}
+/**height might grow as products gets added to multi select box*/
+.wc-backbone-modal-main article {height:auto !important;}
